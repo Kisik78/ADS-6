@@ -5,12 +5,11 @@
 
 template<typename T, int size>
 class TPQueue {
-  private:
+ private:
   T arr[100];
   int fst;
   int lst;
- 
-  public:
+ public:
   TPQueue() : fst(0), lst(0) {}
   void push(T uni) {
     int lat = lst++;
